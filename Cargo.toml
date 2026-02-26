@@ -31,8 +31,8 @@ rustix = { version = "1.0.0", default-features = false, features = ["mm"] }
 rustix-futex-sync = { version = "0.4.0", optional = true }
 
 [dependencies]
-# For more information on these dependencies see rust-lang/rust's
-# `src/tools/rustc-std-workspace` folder
+# For more information on these dependencies see:
+# https://github.com/rust-lang/rust/blob/main/library/rustc-std-workspace-core/README.md
 core = { version = '1.0.0', optional = true, package = 'rustc-std-workspace-core' }
 compiler_builtins = { version = '0.1.0', optional = true }
 cfg-if = "1.0"
